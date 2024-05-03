@@ -1,14 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    float: left;
+    width: 75%;
+}
+
+nav{
+    float: right;
+    width: 20%;
+}
+
+nav button{
+    font-size: 25px;
+    background-color: #ffa446;
+    border-radius: 8px;
+}
+
 #logo {
     color: #ffa446;
 }
 
+main{
+    width: 75%;
+    float: left;
+    position: relative;
+}
+
 .imagen{
     float: left;
-
+    width: 30%;
 }
 .informacion{
     float: left;
     font-size: 50px;
+    width: 55%;
 }
 
 .informacion button{
@@ -22,6 +49,12 @@
     text-decoration: none;
 }
 
-footer{
-    text-align: center;
+aside{
+    width: 20%;
+    float: left;
+    position: relative;
 }
+
+/**footer{
+    position: relative;
+}**/

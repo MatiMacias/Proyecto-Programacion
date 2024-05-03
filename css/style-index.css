@@ -1,1 +1,31 @@
-body{background-color: blue;}
+body{
+
+}
+
+#logo {
+    color: #ffa446;
+}
+
+.imagen{
+    float: left;
+
+}
+.informacion{
+    float: left;
+    font-size: 50px;
+}
+
+.informacion button{
+    font-size: 25px;
+    background-color: #ffa446;
+    border-radius: 8px;
+    
+}
+
+.informacion button a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}

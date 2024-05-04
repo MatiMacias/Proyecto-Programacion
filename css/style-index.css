@@ -3,29 +3,37 @@
 }
 
 header{
-    float: left;
-    width: 75%;
+    border: solid black 3px;
+    width: 97%;
+    position: relative;
 }
 
-nav{
-    float: right;
-    width: 20%;
+
+#logo {
+    color: #ffa446;
+
 }
+
+
 
 nav button{
     font-size: 25px;
     background-color: #ffa446;
     border-radius: 8px;
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
-#logo {
-    color: #ffa446;
-}
+
 
 main{
     width: 75%;
     float: left;
     position: relative;
+    margin: 20px;
+    padding: 10px;
 }
 
 .imagen{

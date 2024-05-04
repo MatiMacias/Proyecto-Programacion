@@ -3,9 +3,9 @@
 }
 
 header{
-    border: solid black 3px;
     width: 97%;
     position: relative;
+    margin: 20px;
 }
 
 
@@ -15,8 +15,7 @@ header{
 }
 
 
-
-nav button{
+header nav button{
     font-size: 25px;
     background-color: #ffa446;
     border-radius: 8px;
@@ -29,11 +28,11 @@ nav button{
 
 
 main{
-    width: 75%;
+    width: 97%;
     float: left;
     position: relative;
-    margin: 20px;
-    padding: 10px;
+    margin: 40px 15px;
+    padding: 30px;
 }
 
 .imagen{
@@ -57,12 +56,13 @@ main{
     text-decoration: none;
 }
 
-aside{
+/**aside{
     width: 20%;
     float: left;
     position: relative;
-    margin: 20px;
-}
+    margin: 40px 15px;
+    padding: 30px;
+}**/
 
 /**footer{
     position: relative;

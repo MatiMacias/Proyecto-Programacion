@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
+
 *{
     box-sizing: border-box;
 }
@@ -43,6 +45,7 @@ main{
     float: left;
     font-size: 50px;
     width: 55%;
+    font-family: "Poetsen One", sans-serif;
 }
 
 .informacion button{

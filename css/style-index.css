@@ -61,6 +61,7 @@ aside{
     width: 20%;
     float: left;
     position: relative;
+    margin: 20px;
 }
 
 /**footer{

@@ -10,6 +10,7 @@ form label{
     height: 500px;
 }
 
-#logo{
+#logo a{
     color: #ffa446;
+    text-decoration: none;
 }

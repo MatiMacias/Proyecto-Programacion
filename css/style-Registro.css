@@ -1,9 +1,15 @@
 
-header{color: #ffa446;}
+/**header{color: #ffa446; text-decoration: none;}**/
 label{font-size: 25px;}
 #formulario {
     -ms-flex-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px; }
+    height: 500px; 
+}
+
+#logo a{
+    color: #ffa446;
+    text-decoration: none;
+}

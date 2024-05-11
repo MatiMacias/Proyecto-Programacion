@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(../img/calorias_restaurantes_usa-680x492.webp),
+    linear-gradient(to bottom, rgb(0, 0, 0), white);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 header{
     width: 97%;
     position: relative;
@@ -25,6 +32,8 @@ header nav button{
     position: absolute;
     top: 8px;
     right: 16px;
+    border: none;
+    color: white;
 }
 
 
@@ -37,26 +46,30 @@ main{
     padding: 30px;
 }
 
-.imagen{
+img{
     float: left;
-    width: 30%;
+    border-radius: 40px;
 }
+
+
 .informacion{
     float: left;
     font-size: 50px;
     width: 55%;
     font-family: "Poetsen One", sans-serif;
+    color: #ffa446;
 }
 
 .informacion button{
     font-size: 25px;
     background-color: #ffa446;
     border-radius: 8px;
-    
+    border: none;
 }
 
 .informacion button a{
     text-decoration: none;
+    color: white;
 }
 
 /**aside{

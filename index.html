@@ -4,41 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="CSS/style-index.css">
-    
 </head>
 <body>
 
-    
-    <header>
-        <h1 id="logo">Nombre X</h1>
-
-        <nav>
-            <a href="LoginAdmin.html"><button>Iniciar Sesión</button></a>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo">Nombre X</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="RegisterAdmin.html"><button class="link">Registrarme</button></a>
+              <a class="nav-link" href="LoginAdmin.html"><button class="link">Iniciar Sesión</button></a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
     <main>
-        <section class="informacion">
-            <P>Un sitio web hecho para administrar tu propio restaurante</P>
-            <button><a href="RegisterAdmin.html">Empezar mi Restaurante</a></button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 informacion">
+                    <!--<section class="informacion">-->
+                        <P>Un sitio web hecho para administrar tu propio restaurante</P>
+                        <button><a href="RegisterAdmin.html">Empezar mi Restaurante</a></button>
+                </div>
 
-        </section> 
-        <section class="comida">
-                <img src="img/calorias_restaurantes_usa-680x492.webp" alt="Imagen de comida" width="350px" height="435px">
-        </section>
-
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-4 col-lg-4">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                            <img src="img/2-COMPRESSED-scaled.jpg" class="d-block w-100" alt="Carnes" width="350" height="430">
+                    </div>
+                    <div class="carousel-item">
+                            <img src="img/calorias_restaurantes_usa-680x492.webp" class="d-block w-100" alt="Pastas" width="350" height="430">
+                        </div>
+                    <div class="carousel-item">
+                            <img src="img/ceviche-restaurante-fidelio-madrid-elle-gourmet-661b8e9700646.jpg" class="d-block w-100" alt="Ceviche" width="350" height="430">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/piqueo-cuatro-puertos_1.jpg" class="d-block w-100" alt="Picada" width="350" height="430">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <!--<aside>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Obcaecati dolorum labore eius eligendi corrupti veritatis officia voluptatibus exercitationem amet, 
-            culpa nemo omnis nihil iure provident? Aliquam id modi ea perferendis.</p>
-    </aside>-->
-
-    <!--<footer>
-        <p>redes y contactos</p>
-    </footer>-->
-
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+form label{
+    font-size: 25px;
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#logo a{
+    color: #ffa446;
+    text-decoration: none;
+}

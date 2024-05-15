@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-image: url(../img/calorias_restaurantes_usa-680x492.webp),
+    background-image: url(../img/Fondo\ para\ practica.png),
     linear-gradient(to bottom, rgb(0, 0, 0), white);
     background-size: cover;
     background-blend-mode: multiply;
@@ -21,19 +22,18 @@ header{
 #logo {
     color: #ffa446;
     text-decoration: none;
+    font-family: "Bree Serif", serif;
+    font-size: 25px;
 }
 
 
-header nav button{
-    font-size: 25px;
+.link{
+    font-size: 20px;
     background-color: #ffa446;
     border-radius: 8px;
-    float: right;
-    position: absolute;
-    top: 8px;
-    right: 16px;
     border: none;
     color: white;
+    font-family: "Bree Serif", serif;
 }
 
 
@@ -71,15 +71,3 @@ img{
     text-decoration: none;
     color: white;
 }
-
-/**aside{
-    width: 20%;
-    float: left;
-    position: relative;
-    margin: 40px 15px;
-    padding: 30px;
-}**/
-
-/**footer{
-    position: relative;
-}**/

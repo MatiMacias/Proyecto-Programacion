@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.lista-container {
+    border: 1px solid black; /* Borde negro en cada lista */
+}
+
+.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.lista li {
+    margin-bottom: 5px;
+    padding: 5px;
+}

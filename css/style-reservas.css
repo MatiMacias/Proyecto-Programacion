@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 form{
     border: 5px solid blue;
     border-radius: 20px;
@@ -36,4 +39,20 @@ h1{
     text-align: center;
     font-family:sans-serif;
     color: ivory;
+}
+
+#logo {
+    color: #ffa446;
+    text-decoration: none;
+    font-family: "Bree Serif", serif;
+    font-size: 25px;
+}
+
+.sesion{
+    font-size: 20px;
+    background-color: #ffa446;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: "Bree Serif", serif;
 }

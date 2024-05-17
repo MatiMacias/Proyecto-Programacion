@@ -5,14 +5,29 @@
     padding: 20px;
 }
 
+body{
+    color: white;
+    background-image: url(../img/FondoSesion.png);
+}
+
+#logo {
+    color: #ffa446;
+    text-decoration: none;
+    font-family: "Bree Serif", serif;
+    font-size: 25px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .lista-container {
-    border: 1px solid black; /* Borde negro en cada lista */
+    border: 2px solid white; /* Borde negro en cada lista */
 }
 
 .lista {

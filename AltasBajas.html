@@ -6,8 +6,13 @@
     <title>Listas de Elementos</title>
     <link rel="stylesheet" href="css/AltasBajas.css">
 </head>
+<nav class="navbar  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logo">Nombre X</a>
+          </div>
+      </nav>
 <body>
-    <h1>Listas de Elementos</h1>
+    <h1>Altas de productos</h1>
     <div class="container">
         <form id="form">
             <label for="categoria">Categoría:</label>
@@ -15,7 +20,7 @@
                 <option value="bebidas">Bebidas</option>
                 <option value="comidas">Comidas</option>
                 <option value="cervezas">Cervezas</option>
-                <option value="gines">Gines</option>
+                <option value="postres">Postres</option>
             </select>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
@@ -38,7 +43,7 @@
                 <ul id="listaCervezas" class="lista"></ul>
             </div>
             <div class="lista-container">
-                <h2>Gines</h2>
+                <h2>Postres</h2>
                 <ul id="listaGines" class="lista"></ul>
             </div>
         </div>

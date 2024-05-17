@@ -1,8 +1,12 @@
+body{
+    background-image: linear-gradient(black, darkorange) ;
+}
+
 form{
-    border: 5px solid blue;
+    border: 5px solid rgb(128, 58, 11);
     border-radius: 20px;
-    margin: 50px 300px 300px;
-    background-color: rgb(38, 36, 51);
+    margin: 20px 300px 300px;
+    background-color: #ffa446;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -11,7 +15,7 @@ form{
 }
 
 input,select{
-    border: 2px solid blue;
+    border: 2px solid rgb(128, 58, 11);
     border-radius: 15px;
     margin: 10px;
     margin-left: 25%;
@@ -29,11 +33,27 @@ label{
     margin-left: -22%;
     font-size: 16px;
     font-family:Verdana;
-    color: ivory;
+    font-weight: bold;
+    color: black;
 }
 
 h1{
     text-align: center;
     font-family:sans-serif;
-    color: ivory;
+    color: rgb(128, 58, 11);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+
+}
+.link{
+    padding: 5px;
+    font-size: 20px;
+    background-color: #ffa446;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: Verdana;
+    font-weight: 100;
 }

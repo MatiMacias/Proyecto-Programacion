@@ -10,11 +10,16 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar  navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html" id="logo">Nombre X</a>
-          </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-md">
+          <a class="navbar-brand" href="#" id="logo">Nombre X</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="index.html" id="cierre"><button class="sesion">Cerrar Sesión</button></a>
+            </div>
+        </div>
+      </nav>
     <form id="formMesas">
         <label for="numeroMesas">Número de Mesas:</label>
         <input type="number" id="numeroMesas" min="1" required>

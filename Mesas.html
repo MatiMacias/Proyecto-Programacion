@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesas</title>
+        <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style-Mesas.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<nav class="navbar  navbar-dark bg-dark">
+<body>
+    <nav class="navbar  navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html" id="logo">Nombre X</a>
           </div>
-      </nav>
-<body>
-    <h1>Gestión de las Mesas</h1>
+    </nav>
     <form id="formMesas">
         <label for="numeroMesas">Número de Mesas:</label>
         <input type="number" id="numeroMesas" min="1" required>
         <button type="submit">Generar Mesas</button>
     </form>
     <div id="tablaMesas">
-        <table>
+        <table border="1">
             <tr>
             <td>mesa 1</td>
             <td>mesa 1</td>

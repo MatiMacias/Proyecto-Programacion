@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style-LogRegis.css">
+    <link rel="stylesheet" type="text/css" href="css/style-LogRegis.css">
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Iniciar Sesión</title>
 </head>
 <body>
 
-    <header>
-        <h1 id="logo"><a href="index.html">Nombre X</a></h1>
-    </header>
+    <nav class="navbar  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logo">Nombre X</a>
+          </div>
+      </nav>
 
-    <section class="formulario">
-        <form>
-            <label for="">Usuario</label> <br>
-            <input type="text"> <br>
-            <label for="">Contraseña</label><br>
-            <input type="text"><br>
-            <a class="nav-link" href="index-2.html"><button id="boton" class="link">Ingresar</button></a>
-        </form> 
+    <section class="formulario col-md-2 col-lg-2">
+        <div class="row">
+            <form>
+                <label for="">Usuario</label> <br>
+                <input type="text"> <br>
+                <label for="">Contraseña</label><br>
+                <input type="text"><br>
+                <div class="col-md-12 col-lg-12">
+                    <button id="boton"><a href="SesionIniciada.html" id="sesion">Iniciar Sesión</a></button>
+                </div>
+            </form> 
+         </div>
     </section>
 
 

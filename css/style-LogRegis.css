@@ -1,5 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 body{
  background-image: url(../img/FondoSesion.png);
+}
+
+header{
+    width: 97%;
+    position: relative;
+    margin: 20px;
 }
 
 .formulario{
@@ -48,11 +57,31 @@ button:hover{
     transform: scale(1.1);
 }
 
-#logo a{
+#logo {
     color: #ffa446;
     text-decoration: none;
+    font-family: "Bree Serif", serif;
+    font-size: 25px;
 }
 
 a{
+    color: white;
+}
+
+#sesion{
+    text-decoration: none;
     color:white;
+}
+
+#boton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: transform 0.3s ease;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #ffa446;
+    background-color: #ffa446;
+    color:black;
 }

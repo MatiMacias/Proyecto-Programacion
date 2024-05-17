@@ -1,0 +1,39 @@
+form{
+    border: 5px solid blue;
+    border-radius: 20px;
+    margin: 50px 300px 300px;
+    background-color: rgb(38, 36, 51);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+}
+
+input,select{
+    border: 2px solid blue;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 25%;
+    padding-left: 10px;
+    height: 30px;
+    width: 300px;
+    font-size: medium;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+label{
+    margin-left: -22%;
+    font-size: 16px;
+    font-family:Verdana;
+    color: ivory;
+}
+
+h1{
+    text-align: center;
+    font-family:sans-serif;
+    color: ivory;
+}

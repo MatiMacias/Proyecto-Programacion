@@ -2,6 +2,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-top: 20px;
+    color: white;
 }
 td {
     border: 2px solid white;
@@ -10,6 +11,7 @@ td {
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
+    color: white;
 }
 
 body{
@@ -29,6 +31,15 @@ body{
     background-color: #ffa446;
     border-radius: 8px;
     border: none;
+    color: white;
+    font-family: "Bree Serif", serif;
+}
+#formMesas{
+    color: white;
+    font-family: "Bree Serif", serif;
+}
+
+#tablaMesas{
     color: white;
     font-family: "Bree Serif", serif;
 }

@@ -11,16 +11,16 @@ form{
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    padding: 20px;
+    padding: 20px 100px 100px;
 }
 
 input,select{
     border: 2px solid rgb(128, 58, 11);
     border-radius: 15px;
-    margin: 10px;
+    margin: 10px 10px 10px;
     margin-left: 25%;
     padding-left: 10px;
-    height: 30px;
+    height: 40px;
     width: 300px;
     font-size: medium;
     -webkit-border-radius: 15px;

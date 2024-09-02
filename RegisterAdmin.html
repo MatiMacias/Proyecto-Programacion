@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="css/style-LogRegis.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Registro</title>
     
 </head>
@@ -19,13 +17,13 @@
       </nav>
 
     <section class="formulario">
-        <form>
+        <form name="registro">
             <label for="">Usuario</label> <br>
             <input type="text"> <br>
             <label for="">Contraseña</label><br>
-            <input type="password" required><br>
+            <input id="contra" name="contra" type="password" required><br>
             <label for="">Correo Electronico</label><br>
-            <input type="text"><br>
+            <input id="email" name="email" type="text"><br>
             <button id="boton">Registrarse</button><br>
             <a href="LoginAdmin.html">Ya tengo una cuenta</a>
         </form>
@@ -35,5 +33,6 @@
 
     
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/expresion.js"></script>
 </body>
 </html>

@@ -27,6 +27,11 @@ body{
     font-size: 25px;
 }
 
+.regreso{
+    position: relative;
+    float: right;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

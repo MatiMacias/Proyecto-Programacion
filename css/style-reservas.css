@@ -50,6 +50,11 @@ h1{
     font-size: 25px;
 }
 
+.regreso{
+    position: relative;
+    float: right;
+}
+
 .sesion{
     color: rgb(128, 58, 11);
     text-shadow: 2px 2px rgb(0, 0, 0);

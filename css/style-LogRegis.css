@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilo html "LoginAdmin" y "RegisterAdmin"*/
+
 body{
  background-image: url(../img/FondoSesion.png);
 }
@@ -62,6 +70,7 @@ button:hover{
     text-decoration: none;
     font-family: "Bree Serif", serif;
     font-size: 25px;
+    padding: 15px;
 }
 
 a{
@@ -85,3 +94,97 @@ a{
     background-color: #ffa446;
     color:black;
 }
+
+/*Estilo html "SesionIniciada"*/
+
+.sesion{
+    font-size: 20px;
+    background-color: #ffa446;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: "Bree Serif", serif;
+}
+
+#accion{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+#herramientas{
+    position: relative;
+    float: right;
+}
+
+#cierreSesion{
+    position: relative;
+    float: right;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+
+  #finalizar{
+    float: left;
+  }
+  
+  /*li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }*/
+
+  li a, .dropbtn{
+    font-size: 20px;
+    background-color: #ffa446;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-family: "Bree Serif", serif;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body{
+    background-image: url(../img/FondoSesion.png);
+   }
+
+#logo {
+    color: #ffa446;
+    text-decoration: none;
+    font-family: "Bree Serif", serif;
+    font-size: 25px;
+}
+
+.sesion{
+    font-size: 20px;
+    background-color: #ffa446;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: "Bree Serif", serif;
+}
+
+section{
+    border: 2px solid white;
+    position: relative;
+    float: left;
+}
+
+
+div{
+    border: 2px solid white;
+    
+}
+
+.product-section{
+    position: relative;
+}
+
+tr{
+    border: 2px solid white; 
+}
+
+td{
+    border: 2px solid white;
+}
+
+
+

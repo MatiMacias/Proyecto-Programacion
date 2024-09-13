@@ -16,11 +16,6 @@ body{
     background-attachment: fixed;
 }
 
-/*.encabezado{
-    width: 97%;
-    position: relative;
-}*/
-
 .encabezado{
     width: 100%;
     position: fixed;

@@ -10,12 +10,21 @@ body{
     linear-gradient(to bottom, rgb(0, 0, 0), white);
     background-size: cover;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+    min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    width: 97%;
-    position: relative;
-    margin: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que el encabezado quede por encima de otros elementos */
+    padding: 10px;
 }
 
 
@@ -32,18 +41,20 @@ header{
     background-color: #ffa446;
     border-radius: 8px;
     border: none;
+    margin: 5px;
     color: white;
     font-family: "Bree Serif", serif;
+    position: relative;
+    float: right;
 }
 
-
-
-main{
+main {
     width: 97%;
-    float: left;
-    position: relative;
-    margin: 40px 15px;
+    margin: 40px auto;
     padding: 30px;
+    display: flex; /* Utilizar flexbox */
+    align-items: center; /* Alineación vertical */
+    justify-content: space-between; /* Espacio entre imagen y texto */
 }
 
 img{
@@ -70,4 +81,26 @@ img{
 .informacion button a{
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Cambia el layout a columnas en pantallas pequeñas */
+        text-align: center;
+    }
+    
+    img {
+        max-width: 80%; /* Ajusta el tamaño de la imagen */
+        margin-bottom: 20px;
+    }
+
+    .informacion {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .informacion a {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
 }

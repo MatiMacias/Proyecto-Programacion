@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock</title>
-        <!-- Custom CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/AltasBajas.css">
 </head>
 <body>
@@ -13,8 +13,8 @@
           <a class="navbar-brand" href="#" id="logo">Nombre X</a>
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="regreso">
-              <a class="nav-link" href="dashboard.html" id="cierre"><button class="sesion">Volver</button></a>
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="SesionIniciada.html" id="cierre"><button class="sesion">Volver</button></a>
             </div>
         </div>
       </nav>
@@ -23,59 +23,29 @@
       </div>
     <div class="container">
         <form id="form">
-            <label for="categoria">Categoría:</label>
-            <select id="categoria" name="categoria">
-                <option value="bebidas">Bebidas</option>
-                <option value="comidas">Comidas</option>
-                <option value="cervezas">Cervezas</option>
-                <option value="postres">Postres</option>
-            </select>
+            <label for="categoria">Nueva Categoría:</label>
+            <input type="text" id="nuevaCategoria" name="nuevaCategoria">
+            <button type="button" onclick="agregarCategoria()">Agregar Categoría</button>
+            <br><br>
+
+            <label for="categoriaSeleccionada">Seleccionar Categoría:</label>
+            <select id="categoriaSeleccionada" name="categoriaSeleccionada"></select>
+            <button type="button" onclick="eliminarCategoria()">Eliminar Categoría</button> <!-- Botón eliminar categoría -->
+            
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             <label for="precio">Precio:</label>
             <input type="text" id="precio" name="precio">
-            <button type="button" onclick="agregarElemento()">Agregar</button>
+            <button type="button" onclick="agregarElemento()">Agregar Producto</button>
         </form>
 
-        <div class="grid-container">
-            <div class="lista-container">
-                <h2>Bebidas</h2>
-                <ul id="listaBebidas" class="lista"></ul>
-            </div>
-            <div class="lista-container">
-                <h2>Comidas</h2>
-                <ul id="listaComidas" class="lista"></ul>
-            </div>
-            <div class="lista-container">
-                <h2>Cervezas</h2>
-                <ul id="listaCervezas" class="lista"></ul>
-            </div>
-            <div class="lista-container">
-                <h2>Postres</h2>
-                <ul id="listaGines" class="lista"></ul>
-            </div>
+        <div id="listas" class="grid-container">
+            <!-- Las listas dinámicas se agregarán aquí -->
         </div>
     </div>
 
-    <script>
-        function agregarElemento() {
-            var categoria = document.getElementById("categoria").value;
-            var nombreInput = document.getElementById("nombre");
-            var precioInput = document.getElementById("precio");
-            var nombre = nombreInput.value.trim();
-            var precio = precioInput.value.trim();
-
-            if (nombre !== "") {
-                var lista = document.getElementById("lista" + categoria.charAt(0).toUpperCase() + categoria.slice(1));
-                var nuevoElemento = document.createElement("li");
-                nuevoElemento.textContent = nombre + (precio !== "" ? " - Precio: $" + precio : "");
-                lista.appendChild(nuevoElemento);
-                nombreInput.value = "";
-                precioInput.value = "";
-            } else {
-                alert("Por favor ingresa el nombre del elemento.");
-            }
-        }
-    </script>
+    <link href="https://unpkg.com/tabulator-tables@6.2.5/dist/css/tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@6.2.5/dist/js/tabulator.min.js"></script>
+    <script src="js/AltasBajas.js"></script>
 </body>
 </html>
